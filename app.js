@@ -23,6 +23,7 @@ form.addEventListener("submit", (e) => {
 
   // Show results
 
+  scrollTo(0, 0);
   result.querySelector("span").textContent = `${score}%`;
   result.classList.remove("d-none");
 });
